@@ -30,6 +30,7 @@ namespace MatkulMobileCorrectionOpener
                     txtRoot.Text = "Root : " + file;
 
                     Search(".xml", file);
+                    Search(".java", file);
                 }
                 else
                 {
